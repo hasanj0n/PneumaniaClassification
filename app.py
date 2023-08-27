@@ -16,7 +16,7 @@ st.image(image, caption='Pneumania')
 st.warning("Upload photo of the Chest X-ray!", icon="⚠️")
 
 st.text("For example:")
-sample = Image.open('sample.jpg')
+sample = Image.open('sample.jpeg')
 st.image(image, caption='Sample')
 
 # rasmni joylash
