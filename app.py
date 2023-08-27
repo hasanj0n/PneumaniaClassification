@@ -17,7 +17,7 @@ st.warning("Upload photo of the Chest X-ray!", icon="⚠️")
 
 st.text("For example:")
 sample = Image.open('sample.jpeg')
-st.image(image, caption='Sample')
+st.image(sample, caption='Sample')
 
 # rasmni joylash
 file = st.file_uploader("Upload photo:", type=["png","jpeg","gif","svg"])
